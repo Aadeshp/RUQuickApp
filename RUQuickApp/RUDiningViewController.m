@@ -1,6 +1,6 @@
 //
 //  RUDiningViewController.m
-//  RUNextBusApp
+//  RUQuickApp
 //
 //  Created by Aadesh Patel on 3/28/15.
 //  Copyright (c) 2015 Aadesh Patel. All rights reserved.
