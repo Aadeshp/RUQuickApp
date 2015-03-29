@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		5D7BE5FB1AC79CE20084DDFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE5FA1AC79CE20084DDFA /* main.m */; };
 		5D7BE5FE1AC79CE20084DDFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE5FD1AC79CE20084DDFA /* AppDelegate.m */; };
-		5D7BE6011AC79CE20084DDFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6001AC79CE20084DDFA /* ViewController.m */; };
-		5D7BE6041AC79CE20084DDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6021AC79CE20084DDFA /* Main.storyboard */; };
 		5D7BE6061AC79CE20084DDFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6051AC79CE20084DDFA /* Images.xcassets */; };
 		5D7BE6091AC79CE20084DDFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE6071AC79CE20084DDFA /* LaunchScreen.xib */; };
 		5D7BE6151AC79CE20084DDFA /* RUQuickAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6141AC79CE20084DDFA /* RUQuickAppTests.m */; };
+		5D7BE61F1AC79CFB0084DDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D7BE61E1AC79CFB0084DDFA /* Main.storyboard */; };
+		5D7BE6221AC79D190084DDFA /* RUDiningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6211AC79D190084DDFA /* RUDiningViewController.m */; };
+		5D7BE6311AC79D2D0084DDFA /* RUNextBusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6241AC79D2C0084DDFA /* RUNextBusViewController.m */; };
+		5D7BE6321AC79D2D0084DDFA /* RouteBusStopsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6261AC79D2C0084DDFA /* RouteBusStopsView.m */; };
+		5D7BE6331AC79D2D0084DDFA /* RouteBusStopsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6281AC79D2C0084DDFA /* RouteBusStopsViewCell.m */; };
+		5D7BE6341AC79D2D0084DDFA /* BusLocationMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE62A1AC79D2C0084DDFA /* BusLocationMapView.m */; };
+		5D7BE6351AC79D2D0084DDFA /* RUNextBusAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE62C1AC79D2C0084DDFA /* RUNextBusAPIHelper.m */; };
+		5D7BE6361AC79D2D0084DDFA /* RUDiningAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE62E1AC79D2C0084DDFA /* RUDiningAPIHelper.m */; };
+		5D7BE6371AC79D2D0084DDFA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7BE6301AC79D2D0084DDFA /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,28 @@
 		5D7BE5FA1AC79CE20084DDFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5D7BE5FC1AC79CE20084DDFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D7BE5FD1AC79CE20084DDFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5D7BE5FF1AC79CE20084DDFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5D7BE6001AC79CE20084DDFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5D7BE6031AC79CE20084DDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D7BE6051AC79CE20084DDFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5D7BE6081AC79CE20084DDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5D7BE60E1AC79CE20084DDFA /* RUQuickAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RUQuickAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7BE6131AC79CE20084DDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D7BE6141AC79CE20084DDFA /* RUQuickAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUQuickAppTests.m; sourceTree = "<group>"; };
+		5D7BE61E1AC79CFB0084DDFA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5D7BE6201AC79D190084DDFA /* RUDiningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUDiningViewController.h; sourceTree = "<group>"; };
+		5D7BE6211AC79D190084DDFA /* RUDiningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUDiningViewController.m; sourceTree = "<group>"; };
+		5D7BE6231AC79D2C0084DDFA /* RUNextBusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUNextBusViewController.h; sourceTree = "<group>"; };
+		5D7BE6241AC79D2C0084DDFA /* RUNextBusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUNextBusViewController.m; sourceTree = "<group>"; };
+		5D7BE6251AC79D2C0084DDFA /* RouteBusStopsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteBusStopsView.h; sourceTree = "<group>"; };
+		5D7BE6261AC79D2C0084DDFA /* RouteBusStopsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteBusStopsView.m; sourceTree = "<group>"; };
+		5D7BE6271AC79D2C0084DDFA /* RouteBusStopsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteBusStopsViewCell.h; sourceTree = "<group>"; };
+		5D7BE6281AC79D2C0084DDFA /* RouteBusStopsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteBusStopsViewCell.m; sourceTree = "<group>"; };
+		5D7BE6291AC79D2C0084DDFA /* BusLocationMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusLocationMapView.h; sourceTree = "<group>"; };
+		5D7BE62A1AC79D2C0084DDFA /* BusLocationMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusLocationMapView.m; sourceTree = "<group>"; };
+		5D7BE62B1AC79D2C0084DDFA /* RUNextBusAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUNextBusAPIHelper.h; sourceTree = "<group>"; };
+		5D7BE62C1AC79D2C0084DDFA /* RUNextBusAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUNextBusAPIHelper.m; sourceTree = "<group>"; };
+		5D7BE62D1AC79D2C0084DDFA /* RUDiningAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUDiningAPIHelper.h; sourceTree = "<group>"; };
+		5D7BE62E1AC79D2C0084DDFA /* RUDiningAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUDiningAPIHelper.m; sourceTree = "<group>"; };
+		5D7BE62F1AC79D2C0084DDFA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5D7BE6301AC79D2D0084DDFA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +102,14 @@
 		5D7BE5F71AC79CE20084DDFA /* RUQuickApp */ = {
 			isa = PBXGroup;
 			children = (
+				5D7BE63A1AC79D6E0084DDFA /* RUDining */,
+				5D7BE6391AC79D630084DDFA /* RUNextBus */,
+				5D7BE6381AC79D460084DDFA /* APIHelpers */,
+				5D7BE62F1AC79D2C0084DDFA /* RootViewController.h */,
+				5D7BE6301AC79D2D0084DDFA /* RootViewController.m */,
+				5D7BE61E1AC79CFB0084DDFA /* Main.storyboard */,
 				5D7BE5FC1AC79CE20084DDFA /* AppDelegate.h */,
 				5D7BE5FD1AC79CE20084DDFA /* AppDelegate.m */,
-				5D7BE5FF1AC79CE20084DDFA /* ViewController.h */,
-				5D7BE6001AC79CE20084DDFA /* ViewController.m */,
-				5D7BE6021AC79CE20084DDFA /* Main.storyboard */,
 				5D7BE6051AC79CE20084DDFA /* Images.xcassets */,
 				5D7BE6071AC79CE20084DDFA /* LaunchScreen.xib */,
 				5D7BE5F81AC79CE20084DDFA /* Supporting Files */,
@@ -117,6 +141,41 @@
 				5D7BE6131AC79CE20084DDFA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D7BE6381AC79D460084DDFA /* APIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE62B1AC79D2C0084DDFA /* RUNextBusAPIHelper.h */,
+				5D7BE62C1AC79D2C0084DDFA /* RUNextBusAPIHelper.m */,
+				5D7BE62D1AC79D2C0084DDFA /* RUDiningAPIHelper.h */,
+				5D7BE62E1AC79D2C0084DDFA /* RUDiningAPIHelper.m */,
+			);
+			name = APIHelpers;
+			sourceTree = "<group>";
+		};
+		5D7BE6391AC79D630084DDFA /* RUNextBus */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6231AC79D2C0084DDFA /* RUNextBusViewController.h */,
+				5D7BE6241AC79D2C0084DDFA /* RUNextBusViewController.m */,
+				5D7BE6251AC79D2C0084DDFA /* RouteBusStopsView.h */,
+				5D7BE6261AC79D2C0084DDFA /* RouteBusStopsView.m */,
+				5D7BE6271AC79D2C0084DDFA /* RouteBusStopsViewCell.h */,
+				5D7BE6281AC79D2C0084DDFA /* RouteBusStopsViewCell.m */,
+				5D7BE6291AC79D2C0084DDFA /* BusLocationMapView.h */,
+				5D7BE62A1AC79D2C0084DDFA /* BusLocationMapView.m */,
+			);
+			name = RUNextBus;
+			sourceTree = "<group>";
+		};
+		5D7BE63A1AC79D6E0084DDFA /* RUDining */ = {
+			isa = PBXGroup;
+			children = (
+				5D7BE6201AC79D190084DDFA /* RUDiningViewController.h */,
+				5D7BE6211AC79D190084DDFA /* RUDiningViewController.m */,
+			);
+			name = RUDining;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +258,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7BE6041AC79CE20084DDFA /* Main.storyboard in Resources */,
 				5D7BE6091AC79CE20084DDFA /* LaunchScreen.xib in Resources */,
 				5D7BE6061AC79CE20084DDFA /* Images.xcassets in Resources */,
+				5D7BE61F1AC79CFB0084DDFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +278,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D7BE6011AC79CE20084DDFA /* ViewController.m in Sources */,
+				5D7BE6321AC79D2D0084DDFA /* RouteBusStopsView.m in Sources */,
+				5D7BE6351AC79D2D0084DDFA /* RUNextBusAPIHelper.m in Sources */,
+				5D7BE6221AC79D190084DDFA /* RUDiningViewController.m in Sources */,
 				5D7BE5FE1AC79CE20084DDFA /* AppDelegate.m in Sources */,
+				5D7BE6371AC79D2D0084DDFA /* RootViewController.m in Sources */,
+				5D7BE6331AC79D2D0084DDFA /* RouteBusStopsViewCell.m in Sources */,
+				5D7BE6341AC79D2D0084DDFA /* BusLocationMapView.m in Sources */,
 				5D7BE5FB1AC79CE20084DDFA /* main.m in Sources */,
+				5D7BE6311AC79D2D0084DDFA /* RUNextBusViewController.m in Sources */,
+				5D7BE6361AC79D2D0084DDFA /* RUDiningAPIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5D7BE6021AC79CE20084DDFA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5D7BE6031AC79CE20084DDFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5D7BE6071AC79CE20084DDFA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
